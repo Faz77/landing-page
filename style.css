@@ -7,10 +7,13 @@ body{
 }
 
 .header-and-intro-div{
-    padding: 10px 200px 100px 200px;
     background-color: #1f2937;
     color: #f9faf8;
 
+}
+
+.header-and-intro-div, .information-div {
+    padding: 0px 200px 100px 200px;
 }
 
 .header-div{
@@ -18,6 +21,7 @@ body{
     justify-content: space-between;
     width: 100%;
     padding-bottom: 100px;
+    padding-top: 10px;
 }
 
 .header-logo{
@@ -82,12 +86,32 @@ button{
     justify-content: space-between;
 }
 
+.info-header{
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+    padding: 25px;
+}
+
 .info-content{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 50px;
 }
 
 .image-and-info img{
-    height: 110px;
-    width: 150px;
+    height: 190px;
+    width: 250px;
+    box-sizing: border-box;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+}
+
+.image-and-info{
+    max-width: 250px;
+}
+
+.image-sub-text{
+    text-align: center;
 }
