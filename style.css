@@ -6,14 +6,31 @@ body{
     min-height: 100vh;
 }
 
-.header-and-intro-div{
+.header-and-intro-div, .footer-div{
     background-color: #1f2937;
     color: #f9faf8;
-
 }
 
-.header-and-intro-div, .information-div {
+.header-and-intro-div, .information-div{
     padding: 0px 200px 100px 200px;
+}
+
+.quote-section-div{
+    background-color: #e5e7eb;
+    padding: 100px 377px;
+}
+
+.cta-div{
+    padding: 100px 200px;
+}
+.cta-banner{
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    border-radius: 8px;
 }
 
 .header-div{
@@ -22,6 +39,12 @@ body{
     width: 100%;
     padding-bottom: 100px;
     padding-top: 10px;
+}
+
+.footer-text{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .header-logo{
@@ -114,4 +137,22 @@ button{
 
 .image-sub-text{
     text-align: center;
+}
+
+.quote-text{
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.quote-author{
+    text-align: right;
+}
+
+.cta-header{
+    font-size: 30px;
+}
+
+.cta-sign-up{
+    border: 2px solid #f9faf8;
+    max-height: 32px;
 }
